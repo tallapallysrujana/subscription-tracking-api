@@ -9,9 +9,6 @@ import connectToDatabase from './database/mongodb.js';
 import errorMiddleware from "./middlewares/error.middleware.js";
 import cookieParser from "cookie-parser";
 
-
-
-
 const app=express();
 
 app.use(express.json());
