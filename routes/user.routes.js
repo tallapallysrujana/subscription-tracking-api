@@ -1,4 +1,7 @@
 import {Router} from 'express';
+
+
+
 const userRouter= Router();
 // GET /users ->get all users
 //GET /users/:id -> get users by id
